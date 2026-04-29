@@ -1,0 +1,109 @@
+/* Color Palette
+# - podwerblue
+# - crimson
+# - lightcoral
+# - coral
+*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* fonts */
+.fjalla-one {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.pt-serif {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Global styles 
+------------------------------------*/
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+body {
+    font-family: "PT Serif";
+    font-size: medium;
+    font-weight: 500;
+    background-color: wheat;
+    margin: 0;
+}
+
+
+header{
+    font-family: "PT Serif";
+    font-size: medium;
+    font-weight: 500;
+    background-color: wheat;
+}
+.profile-img {
+border-radius: 50%;
+/* border: 5px solid coral;
+float: left;
+margin-bottom: 50px;
+    */
+    
+}
+
+footer {
+    font-family: "PT Serif";
+    font-size: medium;
+    font-weight: 500;
+    background-color: coral;
+
+} 
+section {
+    font-family: "PT Serif";
+    font-size: medium;
+    font-weight: 500;
+    background-color: coral;
+}
+
+.contact-info {
+    font-family: "PT Serif";
+    font-size: medium;
+    font-weight: 500;
+    background-color: coral;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+h1, h2{
+    font-family: "Fjalla One";
+    background-color: coral;
+    margin: 0;
+}
+
+
+
+
+
+/* Education
+------------------------------------*/
