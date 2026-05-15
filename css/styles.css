@@ -163,23 +163,24 @@ section {
 
 #education {
 
-   #education {
-
-    /* adds background image with transparent gradient */
+    /* background image + transparent gradient */
     background-image:
     linear-gradient(
-        rgba(15, 23, 42, 0.55),
-        rgba(30, 41, 59, 0.55)
+        rgba(15, 23, 42, 0.35),
+        rgba(30, 41, 59, 0.35)
     ),
-
     url("../images/background.png");
 
     background-size: cover;
 
     background-position: center;
 
+    /* keeps background fixed while scrolling */
+    background-attachment: fixed;
+
     color: #e2e8f0;
-}
+
+    min-height: 400px;
 }
 
 
