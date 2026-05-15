@@ -1,12 +1,16 @@
 /* Color Palette
-# - powderblue
-# - crimson
-# - lightcoral
-# - coral
+# - dark navy
+# - slate blue
+# - blue gray
+# - orange accent
+# - light gray
 */
 
 html {
     box-sizing: border-box;
+
+    /* makes nav links scroll smoothly */
+    scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
@@ -37,7 +41,9 @@ body {
     font-family: "PT Serif";
     font-size: medium;
     font-weight: 500;
-    background-color: wheat;
+
+    background-color: #0f172a;
+    color: #e2e8f0;
 
     margin: 0;
 
@@ -72,7 +78,7 @@ body {
 ------------------------------------*/
 
 nav {
-    background-color: crimson;
+    background-color: #1e293b;
 
     /* keeps nav at top while scrolling */
     position: fixed;
@@ -88,7 +94,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #e2e8f0;
 
     text-decoration: none;
 
@@ -100,7 +106,7 @@ nav a {
 nav a:hover {
 
     /* changes color when hovering */
-    color: wheat;
+    color: #f97316;
 }
 
 
@@ -112,7 +118,7 @@ header {
     font-size: medium;
     font-weight: 500;
 
-    background-color: wheat;
+    background-color: #0f172a;
 }
 
 .profile-img {
@@ -124,14 +130,14 @@ header {
     /* makes image circular */
     border-radius: 50%;
 
-    border: 5px solid coral;
+    border: 5px solid #f97316;
 
     /* prevents stretching */
     object-fit: cover;
+    object-position: center;
 
     display: block;
 }
-
 
 
 /* Sections
@@ -142,9 +148,13 @@ section {
     font-size: medium;
     font-weight: 500;
 
-    background-color: coral;
+    background-color: #1e293b;
 
     padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
 }
 
 
@@ -153,20 +163,23 @@ section {
 
 #education {
 
+   #education {
+
     /* adds background image with transparent gradient */
     background-image:
     linear-gradient(
-        rgba(220, 20, 60, 0.7),
-        rgba(240, 128, 128, 0.7)
+        rgba(15, 23, 42, 0.55),
+        rgba(30, 41, 59, 0.55)
     ),
 
-    url("../images/background.jpg");
+    url("../images/background.png");
 
     background-size: cover;
 
     background-position: center;
 
-    color: white;
+    color: #e2e8f0;
+}
 }
 
 
@@ -178,9 +191,13 @@ footer {
     font-size: medium;
     font-weight: 500;
 
-    background-color: coral;
+    background-color: #1e293b;
 
     text-align: center;
+
+    padding: 20px;
+
+    border-radius: 10px;
 }
 
 .contact-info {
@@ -198,9 +215,15 @@ footer {
 }
 
 .contact-info a {
-    color: black;
+    color: #e2e8f0;
 
     text-decoration: none;
+}
+
+.contact-info a:hover {
+
+    /* changes contact links when hovering */
+    color: #f97316;
 }
 
 .contact-info i {
@@ -217,7 +240,11 @@ h1,
 h2 {
     font-family: "Fjalla One";
 
-    background-color: coral;
+    color: #f97316;
 
     margin: 0;
+}
+
+h3 {
+    color: #f97316;
 }
